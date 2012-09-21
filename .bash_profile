@@ -14,5 +14,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 source ~/.git-completion.bash
 source ~/.profile
 source ~/.paths
+source ~/.aliases
 
 export PATH
