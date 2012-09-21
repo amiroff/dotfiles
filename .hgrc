@@ -1,0 +1,31 @@
+[ui]
+username=Metin Amiroff <amiroff@gmail.com>
+merge = meld
+editor = subl -w
+ignore=~/.hgignore_global
+[extensions]
+#hgtext.bookmarks=
+color =
+#hggit =
+rebase =
+transplant=
+
+[web]
+port = 9000
+style = monoblue
+
+[merge-tools]
+sourcetreemerge.gui=False
+sourcetreebulkmerge.gui=False
+sourcetreemerge.binary=False
+sourcetreebulkmerge.executable=/Applications/SourceTree.app/Contents/Resources/hg-merge.sh
+sourcetreemerge.args=$local $other -ancestor $base -merge $output
+sourcetreemerge.checkconflicts=True
+sourcetreemerge.premerge=True
+sourcetreemerge.executable=/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh
+sourcetreebulkmerge.premerge=False
+sourcetreebulkmerge.binary=True
+
+[extdiff]
+cmd.sourcetreediff=opendiff
+opts.sourcetreediff=

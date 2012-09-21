@@ -1,0 +1,39 @@
+[user]
+	name = Metin Amiroff
+	email = amiroff@gmail.com
+
+[core]
+	excludesfile = /Users/metin/.gitignore_global
+	editor = subl -w
+	autocrlf = true
+	quotepath = false
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+	
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+
+[alias]
+	co = checkout
+	gb = git branch
+	gba = git branch -a
+	gc = git commit -v
+	gd = git diff | mate
+	gl = git pull
+	gp = git push
+	gst = git status
+	br = branch
+	ci = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	st = status
