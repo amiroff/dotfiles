@@ -8,7 +8,6 @@ export LC_MESSAGES="tr_TR.UTF-8"
 export LC_MONETARY="tr_TR.UTF-8"
 export LC_NUMERIC="tr_TR.UTF-8"
 export LC_TIME="tr_TR.UTF-8"
-export LC_ALL="tr_TR.UTF-8"
 
 source /usr/local/bin/virtualenvwrapper.sh
 source ~/.git-completion.bash
