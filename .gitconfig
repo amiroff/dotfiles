@@ -5,7 +5,7 @@
 [core]
 	excludesfile = /Users/metin/.gitignore_global
 	editor = subl -w
-	autocrlf = true
+	autocrlf = false
 	quotepath = false
 
 [difftool "sourcetree"]
