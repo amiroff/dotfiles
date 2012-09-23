@@ -1,0 +1,23 @@
+alias ..='cd ..'
+alias 1='cd -'
+alias ll='ls -al'
+
+alias grep="grep -i --color=auto"
+alias fgrep="fgrep -i -n -r --color=auto"
+alias less="less -r"
+alias more="more -r"
+alias tree="tree -C"
+
+alias du_general="du -chs"
+alias du_here="du -ch -d 0"
+alias date_for_folder="date +%Y-%m-%d"
+
+alias git_repo="git config remote.origin.url"
+
+# macox specific
+# ----------------------------------------------------------------------------
+alias desktop_hide="defaults write com.apple.finder CreateDesktop -bool false;killall Finder;"
+alias desktop_show="defaults write com.apple.finder CreateDesktop -bool true;killall Finder;"
+alias lock_screen="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias ds_store_clear="find . -name '\.DS_Store' -print -delete"
+# ----------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+
+# PostgreSQL Path
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
+# PHP Path
+PATH="/Applications/MAMP/Library/bin/:/Applications/MAMP/bin/php/php5.4.4/bin/:$PATH"
