@@ -28,7 +28,8 @@
 	gb = git branch
 	gba = git branch -a
 	gc = git commit -v
-	gd = git diff | mate
+	gca = git commit -v -a
+	gd = git diff | subl
 	gl = git pull
 	gp = git push
 	gst = git status
@@ -36,4 +37,5 @@
 	ci = commit
 	unstage = reset HEAD --
 	last = log -1 HEAD
-	st = status
+	st = status -sb
+

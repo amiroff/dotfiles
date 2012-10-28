@@ -1,6 +1,13 @@
 alias ..='cd ..'
 alias 1='cd -'
-alias ll='ls -al'
+alias ll='ls -alF'
+alias cls='clear'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias cs='cd $1 && ls'
+alias ms='mkdir $1 && cd $1'
+alias ke="kfmclient exec " # open the files using the default application
 
 alias grep="grep -i --color=auto"
 alias fgrep="fgrep -i -n -r --color=auto"
@@ -13,6 +20,31 @@ alias du_here="du -ch -d 0"
 alias date_for_folder="date +%Y-%m-%d"
 
 alias git_repo="git config remote.origin.url"
+
+# mercurial aliases
+alias hgar='hg addremove'
+
+# apt aliases
+alias install='sudo apt-get install'
+alias agu='sudo apt-get update'
+alias agup='sudo apt-get upgrade'
+
+# zip aliases
+alias ntar="tar -cf"
+alias gz="tar -zcvf"
+alias bz="tar -jcvf"
+alias zp="zip"
+alias ugz="tar -zxf"
+alias ubz="tar -jxf"
+alias utar="tar -xf"
+alias uzp="unzip"
+alias ltar="tar -tf"
+alias lbz="tar -jtf"
+alias lgz="tar -ztf"
+alias lzp="unzip -l"
+alias llz="tar --lzma -tf"
+alias ulz="tar --lzma -xf"
+alias lz="tar --lzma -cvf"
 
 # macox specific
 # ----------------------------------------------------------------------------
