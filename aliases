@@ -15,6 +15,7 @@ alias less="less -r"
 alias more="more -r"
 alias tree="tree -C"
 alias cc="xclip -sel clip <"
+alias alert="notify-send --urgency=low"
 
 alias du_general="du -chs"
 alias du_here="du -ch -d 0"
