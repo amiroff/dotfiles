@@ -14,6 +14,7 @@ alias fgrep="fgrep -i -n -r --color=auto"
 alias less="less -r"
 alias more="more -r"
 alias tree="tree -C"
+alias cc="xclip -sel clip <"
 
 alias du_general="du -chs"
 alias du_here="du -ch -d 0"
