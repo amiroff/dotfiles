@@ -4,7 +4,12 @@ alias ll='ls -alF'
 alias cls='clear'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Need coreutils under OSX for this
 # alias ls='ls --color=auto'
+
+# Comment under linux
+alias ls='ls -FG'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
