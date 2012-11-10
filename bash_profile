@@ -22,8 +22,8 @@ export LC_TIME="tr_TR.UTF-8"
 
 export WORKON_HOME=~/.virtualenvs
 
-# 
-source /usr/local/bin/virtualenvwrapper.sh
+# in case of using virtualenv
+# source /usr/local/bin/virtualenvwrapper.sh
 source ~/.dotfiles/git-completion.bash
 source ~/.dotfiles/profile
 source ~/.dotfiles/paths
