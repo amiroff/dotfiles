@@ -92,6 +92,7 @@ function subdiff()
 {
     #"$@" > ~/$$.diff
     git diff > /tmp/$$.diff
-    subl /tmp/$$.diff
+    subl /tmp/$$.diff &
+    sleep 1
     rm /tmp/$$.diff
 }
