@@ -20,10 +20,9 @@ export LC_MONETARY="tr_TR.UTF-8"
 export LC_NUMERIC="tr_TR.UTF-8"
 export LC_TIME="tr_TR.UTF-8"
 
-export WORKON_HOME=~/.virtualenvs
-
 # in case of using virtualenv
 # source /usr/local/bin/virtualenvwrapper.sh
+# export WORKON_HOME=~/.virtualenvs
 source ~/.dotfiles/git-completion.bash
 source ~/.dotfiles/profile
 source ~/.dotfiles/paths
