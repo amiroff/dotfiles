@@ -86,3 +86,12 @@ update_prompt() {
 }
 
 PROMPT_COMMAND=update_prompt
+
+# Poor man's pipe :(
+function subdiff()
+{
+    #"$@" > ~/$$.diff
+    git diff > /tmp/$$.diff
+    subl /tmp/$$.diff
+    rm /tmp/$$.diff
+}
