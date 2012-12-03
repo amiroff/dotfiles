@@ -10,6 +10,9 @@ PATH="/usr/local/git/bin:$PATH"
 # Go path
 PATH="$PATH:/usr/local/go/bin"
 
+# Vagrant path
+PATH="$PATH:/opt/vagrant/bin"
+
 # User path
 PATH="$PATH:~/.bin"
 
