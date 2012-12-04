@@ -28,6 +28,7 @@ _notes
 dwsync.xml
 *.komodoproject
 .komodotools
+.vagrant
 
 # Version control
 .hg
