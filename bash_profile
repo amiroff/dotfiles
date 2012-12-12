@@ -12,13 +12,13 @@ HISTFILESIZE=2000
 shopt -s checkwinsize
 
 # sudo locale-gen tr_TR.UTF-8 for the following to work!
-export LANG="tr_TR.UTF-8"
-export LC_COLLATE="tr_TR.UTF-8"
-export LC_CTYPE="tr_TR.UTF-8"
-export LC_MESSAGES="tr_TR.UTF-8"
-export LC_MONETARY="tr_TR.UTF-8"
-export LC_NUMERIC="tr_TR.UTF-8"
-export LC_TIME="tr_TR.UTF-8"
+#export LANG="tr_TR.UTF-8"
+#export LC_COLLATE="tr_TR.UTF-8"
+#export LC_CTYPE="tr_TR.UTF-8"
+#export LC_MESSAGES="tr_TR.UTF-8"
+#export LC_MONETARY="tr_TR.UTF-8"
+#export LC_NUMERIC="tr_TR.UTF-8"
+#export LC_TIME="tr_TR.UTF-8"
 
 # in case of using virtualenv
 # source /usr/local/bin/virtualenvwrapper.sh
