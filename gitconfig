@@ -39,3 +39,5 @@
 	last = log -1 HEAD
 	st = status -sb
 
+[diff]
+	external = ~/.dotfiles/meld_diff.py
