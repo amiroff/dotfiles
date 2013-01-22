@@ -53,14 +53,14 @@ set_new_pwd() {
 
 # the dirty status of the git repository
 parse_git_dirty() {
-  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "´"
+    git diff --quiet || echo "´"
 }
 
 # the name of the git branch in the current directory
 set_git_branch() {
     unset GIT_BRANCH
     local branch=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`;
-    
+
     if test $branch
         then
             GIT_BRANCH="${EMG}git:${NONE}$branch${EMR}$(parse_git_dirty) "
@@ -71,7 +71,7 @@ set_git_branch() {
 set_virtual_env_base() {
     unset VIRTUAL_ENV_BASE
     local venv=`basename "$VIRTUAL_ENV"`
-    
+
     if test $venv
         then
             VIRTUAL_ENV_BASE="${EMG}env:${NONE}$venv "
