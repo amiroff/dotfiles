@@ -1,15 +1,15 @@
 alias ..='cd ..'
 alias 1='cd -'
-alias ll='ls -alF'
+alias ll='ls -alF --color'
 alias cls='clear'
-alias la='ls -A'
-alias l='ls -CF'
+alias la='ls -A --color'
+alias l='ls -CF --color'
 
 # Need coreutils under OSX for this
 # alias ls='ls --color=auto'
 
 # Comment under linux
-alias ls='ls -FG'
+alias ls='ls -FG --color'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
