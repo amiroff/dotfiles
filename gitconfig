@@ -38,6 +38,7 @@
 	unstage = reset HEAD --
 	last = log -1 HEAD
 	st = status -sb
+	pom = push origin master
 
 [diff]
 	#external = ~/.dotfiles/meld_diff.py
