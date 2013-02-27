@@ -10,8 +10,8 @@
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-	
+	path =
+
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -40,4 +40,5 @@
 	st = status -sb
 
 [diff]
-	external = ~/.dotfiles/meld_diff.py
+	#external = ~/.dotfiles/meld_diff.py
+	external = ~/.dotfiles/kdiff.py
