@@ -43,3 +43,5 @@
 [diff]
 	#external = ~/.dotfiles/meld_diff.py
 	external = ~/.dotfiles/kdiff.py
+[push]
+	default = current
