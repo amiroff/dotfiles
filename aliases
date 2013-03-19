@@ -9,12 +9,12 @@ alias l='ls -CF --color'
 # alias ls='ls --color=auto'
 
 # Comment under linux
-alias ls='ls -FG --color'
-alias dir='dir --color=auto'
-alias vdir='vdir --color=auto'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
+#alias ls='ls -FG --color'
+#alias dir='dir --color=auto'
+#alias vdir='vdir --color=auto'
+#alias grep='grep --color=auto'
+#alias fgrep='fgrep --color=auto'
+#alias egrep='egrep --color=auto'
 
 alias cs='cd $1 && ls'
 alias mc='mkdir $1 && cd $1'
