@@ -25,14 +25,8 @@
 
 [alias]
 	co = checkout
-	gb = git branch
-	gba = git branch -a
-	gc = git commit -v
-	gca = git commit -v -a
-	gd = git diff | subl
-	gl = git pull
-	gp = git push
-	gst = git status
+	ba = branch -a
+	gca = commit -v -a
 	br = branch
 	ci = commit
 	unstage = reset HEAD --
