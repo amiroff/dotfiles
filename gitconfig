@@ -25,23 +25,19 @@
 
 [alias]
 	co = checkout
-	gb = git branch
-	gba = git branch -a
-	gc = git commit -v
-	gca = git commit -v -a
-	gd = git diff | subl
-	gl = git pull
-	gp = git push
-	gst = git status
+	ba = branch -a
+	gca = commit -v -a
 	br = branch
 	ci = commit
 	unstage = reset HEAD --
 	last = log -1 HEAD
 	st = status -sb
 	pom = push origin master
+	l = log --graph --pretty=format:'%C(yellow)%h%Creset%C(blue)%d%Creset %C(white bold)%s%Creset %C(white dim)(by %an %ar)%Creset'
+    ll = !git l --all
 
 [diff]
 	#external = ~/.dotfiles/meld_diff.py
-	external = ~/.dotfiles/kdiff.py
+	#external = ~/.dotfiles/kdiff.py
 [push]
 	default = current
