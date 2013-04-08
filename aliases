@@ -65,4 +65,5 @@ alias desktop_hide="defaults write com.apple.finder CreateDesktop -bool false;ki
 alias desktop_show="defaults write com.apple.finder CreateDesktop -bool true;killall Finder;"
 alias lock_screen="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias ds_store_clear="find . -name '\.DS_Store' -print -delete"
+alias treee="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 # ----------------------------------------------------------------------------
