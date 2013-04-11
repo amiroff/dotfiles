@@ -41,3 +41,5 @@
 	#external = ~/.dotfiles/kdiff.py
 [push]
 	default = current
+[diff]
+	algorithm = patience
