@@ -2,8 +2,7 @@
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 # PHP Path (Get packages from http://php-osx.liip.ch)
-# PATH="/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.4.4/bin:$PATH"
-PATH="/usr/local/php5-20121126-100332/bin:$PATH"
+PATH="/usr/local/php5/bin:$PATH"
 
 # Mysql Path
 PATH="/usr/local/mysql/bin:$PATH"
