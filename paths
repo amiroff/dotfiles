@@ -1,9 +1,6 @@
 # PostgreSQL Path
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
-# PHP Path (Get packages from http://php-osx.liip.ch)
-PATH="/usr/local/php5/bin:$PATH"
-
 # Mysql Path
 PATH="/usr/local/mysql/bin:$PATH"
 
@@ -21,6 +18,9 @@ PATH="$PATH:~/.bin"
 
 # Bin path order (brew compained about this one)
 PATH="/usr/local/bin:/usr/bin:$PATH"
+
+# PHP Path (Get packages from http://php-osx.liip.ch)
+PATH="/usr/local/php5/bin:$PATH"
 
 
 export PATH
