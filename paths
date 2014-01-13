@@ -11,15 +11,15 @@ PATH="/usr/local/mysql/bin:$PATH"
 PATH="/usr/local/git/bin:$PATH"
 
 # Go path
-PATH="$PATH:/usr/local/go/bin"
+#PATH="$PATH:/usr/local/go/bin"
 
 # Vagrant path
-PATH="$PATH:/opt/vagrant/bin"
+#PATH="$PATH:/opt/vagrant/bin"
 
 # User path
 PATH="$PATH:~/.bin"
 
-# Bin path order (brew compained aout this one)
+# Bin path order (brew compained about this one)
 PATH="/usr/local/bin:/usr/bin:$PATH"
 
 

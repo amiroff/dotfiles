@@ -3,18 +3,18 @@
 	email = amiroff@gmail.com
 
 [core]
-	excludesfile = ~/.dotfiles/gitignore_global
+	excludesfile = /Users/metin/.dotfiles/gitignore_global
 	editor = subl -w
-	autocrlf = false
+	autocrlf = input
 	quotepath = false
 	whitespace = cr-at-eol
 
 [difftool "sourcetree"]
-	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+	cmd = " "
 	path = 
 
 [mergetool "sourcetree"]
-	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+	cmd = " "
 	trustExitCode = true
 
 [color]
@@ -38,9 +38,6 @@
     ll = !git l --all
 	serve = daemon --reuseaddr --verbose --base-path=.
 
-[diff]
-	#external = ~/.dotfiles/meld_diff.py
-	#external = ~/.dotfiles/kdiff.py
 [push]
 	default = current
 [diff]

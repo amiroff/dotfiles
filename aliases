@@ -1,20 +1,12 @@
 alias ..='cd ..'
 alias 1='cd -'
-alias ll='ls -alF --color'
+alias ll='ls -alF'
 alias cls='clear'
-alias la='ls -A --color'
-alias l='ls -CF --color'
+alias la='ls -A'
+alias l='ls -CF'
 
 # Need coreutils under OSX for this
 # alias ls='ls --color=auto'
-
-# Comment under linux
-#alias ls='ls -FG --color'
-#alias dir='dir --color=auto'
-#alias vdir='vdir --color=auto'
-#alias grep='grep --color=auto'
-#alias fgrep='fgrep --color=auto'
-#alias egrep='egrep --color=auto'
 
 alias cs='cd $1 && ls'
 alias mc='mkdir $1 && cd $1'
@@ -33,9 +25,6 @@ alias du_here="du -ch -d 0"
 alias date_for_folder="date +%Y-%m-%d"
 
 alias git_repo="git config remote.origin.url"
-
-# mercurial aliases
-alias hgar='hg addremove'
 
 # apt aliases
 alias install='sudo apt-get install'
