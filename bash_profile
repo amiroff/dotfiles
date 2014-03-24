@@ -1,6 +1,7 @@
 export EDITOR='subl -w'
 export CLICOLOR=1
 force_color_prompt=yes
+complete -cf sudo
 
 HISTCONTROL=ignoreboth
 shopt -s histappend
@@ -31,7 +32,7 @@ source ~/.dotfiles/aliases
 # virtualenvwrapper specific
 #export WORKON_HOME=$HOME/.virtualenvs
 #export PROJECT_HOME=$HOME/Code
-#source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

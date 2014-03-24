@@ -3,18 +3,18 @@
 	email = amiroff@gmail.com
 
 [core]
-	excludesfile = /Users/metin/.dotfiles/gitignore_global
+	excludesfile = /Users/amiroff/.gitignore_global
 	editor = subl -w
 	autocrlf = input
 	quotepath = false
 	whitespace = cr-at-eol
 
 [difftool "sourcetree"]
-	cmd = " "
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 
 [mergetool "sourcetree"]
-	cmd = " "
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 
 [color]
