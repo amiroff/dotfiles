@@ -4,7 +4,7 @@
 
 [core]
 	excludesfile = /Users/amiroff/.gitignore_global
-	editor = subl -w
+	editor = subl -n -w
 	autocrlf = input
 	quotepath = false
 	whitespace = cr-at-eol
